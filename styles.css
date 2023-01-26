@@ -15,7 +15,8 @@ body { background-color: #1b1b1b ;
 }
 
 #sot {margin-left: 60px;
-    margin-top: 30px; }
+    margin-top: 30px;
+justify-content: center; }
 
 #dprg {
     margin-left: 6px;
@@ -49,5 +50,11 @@ color: black; }
 #link {
     text-align: center;
 }
+
+section {width: 100%; 
+}
+
+
+
 
     
