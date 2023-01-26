@@ -1,16 +1,18 @@
 
     function yourname(){
 let userName = prompt('What is your name?');
-    document.write ('Hello.. ' +  userName +'!' 
-
-    )}
+    document.write ('Hello.. ' +  userName +'!')
+    
+    }
+    
 function movie(){
 let movieAnswer =prompt('What is my favorite movie?');
 
 if (movieAnswer == 'Home Alone'){
     document.write(' You got it!   ')
 }
-else {document.write(" Nope. It is  " + mymovieanswer)}
+else {document.write(' Nope. It is Home Alone');
+} 
 }
 
 function age(){
