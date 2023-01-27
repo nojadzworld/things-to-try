@@ -35,9 +35,16 @@ else {
     document.write ('  How? Impossible...')
 }
 }
-  yourname(); 
-  movie();
-  age();
-
-
  
+yourname(); 
+movie();
+age();
+
+let myNum =prompt('How manypics would you like? 1-5')
+myNum = parseInt(myNum)
+for (let i = 0; i < myNum; i++){
+    document.write('<img src="SOT.jpg" />')   
+}
+
+
+
