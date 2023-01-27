@@ -40,11 +40,44 @@ yourname();
 movie();
 age();
 
-let myNum =prompt('How manypics would you like? 1-5')
+let myNum =prompt('How many pics would you like? 1-5')
 myNum = parseInt(myNum)
 for (let i = 0; i < myNum; i++){
     document.write('<img src="SOT.jpg" />')   
 }
 
 
+let userInput = prompt("Type 'xbox' or 'pc' or 'ps'");
+userInput = userInput.toLowerCase();
+
+function platformQ(userInput) {
+ 
+let answerA = false;
+while (!answerA) {
+
+if (userInput == 'xbox') {
+    alert('Nice you can play both gmaes!')
+    answerA= true
+}
+else if (userInput == 'ps') {
+alert('You can only play DEEP ROCK')
+answerA=true
+}
+
+else if (userInput == 'pc') {
+    alert('Nice you can play both gmaes!')
+    answerA=true
+    }
+
+    else {userInput = prompt("Type 'xbox' or 'pc' or 'ps'"
+    )
+}
+
+
+}
+
+
+}
+
+platformQ(userInput)
 
